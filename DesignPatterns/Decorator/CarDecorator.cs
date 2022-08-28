@@ -17,6 +17,6 @@ namespace Decorator.Decorator {
             return _car.GetPrice();
         }
 
-        public abstract double GetDiscountedPrice();  //Added functionality
+        public abstract double GetDiscountedPrice();  //Added functionality dynamically
     }
 }
