@@ -15,6 +15,18 @@ namespace SingletonDemo {
             Console.WriteLine(result);
 
             Console.ReadLine();
+
+            //SingletonThreadSafety fromEstud = SingletonThreadSafety.getInstance;
+            //fromEstud.PrintDetails("From student");
+
+            //SingletonThreadSafety fromEmployee = SingletonThreadSafety.getInstance;
+            //fromEmployee.PrintDetails("From employee");
+
+
+            //double result = Conversion.ToFarenheit(7);
+            //Console.WriteLine(result);
+
+            //Console.ReadLine();
         }
     }
 }
