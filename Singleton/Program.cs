@@ -10,7 +10,6 @@ namespace SingletonDemo {
             Singleton fromEmployee = Singleton.getInstance;
             fromEmployee.PrintDetails("From employee");
 
-
             double result = Conversion.ToFarenheit(7);
             Console.WriteLine(result);
 
@@ -22,7 +21,6 @@ namespace SingletonDemo {
 
             //SingletonThreadSafety fromEmployee = SingletonThreadSafety.getInstance;
             //fromEmployee.PrintDetails("From employee");
-
 
             //double result = Conversion.ToFarenheit(7);
             //Console.WriteLine(result);
@@ -36,7 +34,6 @@ namespace SingletonDemo {
             //SingletonEagerLoading fromEmployee = SingletonEagerLoading.getInstance;
             //fromEmployee.PrintDetails("From employee");
 
-
             //double result = Conversion.ToFarenheit(7);
             //Console.WriteLine(result);
 
@@ -48,7 +45,6 @@ namespace SingletonDemo {
 
             //SingletonLazyLoading fromEmployee = SingletonLazyLoading.getInstance;
             //fromEmployee.PrintDetails("From employee");
-
 
             //double result = Conversion.ToFarenheit(7);
             //Console.WriteLine(result);
