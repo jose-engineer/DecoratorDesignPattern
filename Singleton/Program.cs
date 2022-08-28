@@ -1,13 +1,13 @@
-﻿using Singleton.Estudiante;
+﻿using SingletonDemo.Estudiante;
 using System;
 
-namespace Singleton {
+namespace SingletonDemo {
     class Program {
         static void Main(string[] args) {
-            SingletonClass fromEstud = SingletonClass.getInstance;
+            Singleton fromEstud = Singleton.getInstance;
             fromEstud.PrintDetails("From student");
 
-            SingletonClass fromEmployee = SingletonClass.getInstance;
+            Singleton fromEmployee = Singleton.getInstance;
             fromEmployee.PrintDetails("From employee");
 
 
