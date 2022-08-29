@@ -1,2 +1,2 @@
 # DesignPatterns
-Common c# design patterns with easy to understand and simple examples.
+This pattern Falls under the category of Structural Design Pattern and is also known as Wrapper.
