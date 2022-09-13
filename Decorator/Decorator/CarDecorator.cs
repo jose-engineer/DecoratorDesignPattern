@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace Decorator.Decorator {
-    public abstract class CarDecorator : ICar { //Make decaorator abstract so we can add new functionality without implementation
+    public abstract class CarDecorator : ICar { //Make decorator abstract so we can add new functionality without implementation
 
         private ICar _car;
         public CarDecorator(ICar car) {
@@ -17,6 +17,7 @@ namespace Decorator.Decorator {
             return _car.GetPrice();
         }
 
-        public abstract double GetDiscountedPrice();  //Added functionality dynamically
+        public abstract double GetDiscountedPrice();  //Added functionality dynamically, mark as abstract so implementing classes can override this
+                                                      //and add functionality.
     }
 }
