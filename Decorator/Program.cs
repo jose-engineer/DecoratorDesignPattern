@@ -8,10 +8,10 @@ namespace DesignPatterns {
     class Program {
         static void Main(string[] args) {
 
-            ICar car1 = new Suzuki();
-            ICar car2 = new Hyundai();
+            ICar car1 = new Hyundai();
+            ICar car2 = new Suzuki();
 
-            CarDecorator decorator1 = new OfferPrice(car1);
+            CarDecorator decorator1 = new OfferPrice(car1); //OfferPrice decorator wraps car1
             CarDecorator decorator2 = new OfferPrice(car2);
 
             Console.WriteLine(String.Format("Make: {0} Price: {1} DiscountPrice: {2}", 

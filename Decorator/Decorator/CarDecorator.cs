@@ -17,7 +17,7 @@ namespace Decorator.Decorator {
             return _car.GetPrice();
         }
 
-        public abstract double GetDiscountedPrice();  //Added functionality dynamically, mark as abstract so implementing classes can
+        public abstract double GetDiscountedPrice();  //Added functionality dynamically, mark as abstract/virtual so implementing classes can
                                                       //override this and add functionality.
     }
 }

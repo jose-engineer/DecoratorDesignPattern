@@ -8,7 +8,7 @@ namespace Decorator.ConcreteComponent {
         public string Make => "SUV";
 
         public double GetPrice() {
-            return 500000;
+            return 20000;
         }
     }
 }

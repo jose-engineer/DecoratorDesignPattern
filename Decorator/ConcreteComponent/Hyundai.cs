@@ -8,7 +8,7 @@ namespace Decorator.ConcreteComponent {
         public string Make { get => "HatchBack"; }
 
         public double GetPrice() {
-            return 200000;
+            return 10000;
         }
     }
 }
